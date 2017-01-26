@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">galleri</string>
     <string name="action_settings">Innstillinger</string>
     <string name="l_album_name_all">Alle</string>
     <string name="l_album_name_camera">Kamera</string>
@@ -9,5 +8,4 @@
     <string name="l_album_name_selected">Valgt</string>
     <string name="l_confirm_dialog_message">Fjern valgt bilde?</string>
     <string name="l_confirm_dialog_title">Ferdig</string>
-    <string name="hello_world">hei verden</string>
 </resources>

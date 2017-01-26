@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="选择"
+            android:text="Velg"
             android:textColor="#d6d6d6"
             android:textSize="14dp" />
 
@@ -57,7 +57,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:paddingTop="5dp"
-        android:text="确定(3/4)"
+        android:text="Valg (3/4)"
         android:textColor="#d6d6d6"
         android:textSize="14dp" />
 

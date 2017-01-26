@@ -18,7 +18,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="14dp"
                 android:textColor="#a7a7a7"
-                android:text="相机胶卷" />
+                android:text="Kamera album" />
 
             <TextView
                 android:id="@+id/photoCount"

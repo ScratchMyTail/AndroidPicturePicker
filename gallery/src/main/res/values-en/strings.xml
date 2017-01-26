@@ -9,4 +9,5 @@
     <string name="l_album_name_selected">Selected</string>
     <string name="l_confirm_dialog_message">Do you want to give up this image selection?</string>
     <string name="l_confirm_dialog_title">Done</string>
+    <string name="hello_world">hello world</string>
 </resources>

@@ -71,7 +71,7 @@ public class ImageSelectActivity extends FragmentActivity implements AlbumCollec
         mCollection.setOnSelectionChange(new SelectedUriCollection.OnSelectionChange() {
             @Override
             public void onChange(int maxCount, int selectCount) {
-                commit.setText("Valgt ("+selectCount+"/"+maxCount+")");
+                commit.setText("Ferdig ("+selectCount+"/"+maxCount+")");
             }
         });
 
@@ -85,7 +85,7 @@ public class ImageSelectActivity extends FragmentActivity implements AlbumCollec
         galleryTip = (ImageView) findViewById(R.id.gallery_tip);
         LinearLayout selectFold = (LinearLayout) findViewById(R.id.selectFold);
         commit = (Button) findViewById(R.id.commit);
-        commit.setText("Valgt (0/"+selectionSpec.getMaxSelectable()+")");
+        commit.setText("Ferdig (0/"+selectionSpec.getMaxSelectable()+")");
         if (selectionSpec.isSingleChoose()){
             commit.setVisibility(View.GONE);
         }

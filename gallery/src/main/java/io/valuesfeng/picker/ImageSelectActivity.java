@@ -85,7 +85,8 @@ public class ImageSelectActivity extends FragmentActivity implements AlbumCollec
         galleryTip = (ImageView) findViewById(R.id.gallery_tip);
         LinearLayout selectFold = (LinearLayout) findViewById(R.id.selectFold);
         commit = (Button) findViewById(R.id.commit);
-        commit.setText("Ferdig (0/"+selectionSpec.getMaxSelectable()+")");
+        commit.setText("Ferdig ("+mCollection.count()+"/"+selectionSpec.getMaxSelectable()+")");
+        //commit.setText("Ferdig (0/"+selectionSpec.getMaxSelectable()+")");
         if (selectionSpec.isSingleChoose()){
             commit.setVisibility(View.GONE);
         }

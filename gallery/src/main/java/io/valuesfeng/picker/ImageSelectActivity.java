@@ -101,11 +101,13 @@ public class ImageSelectActivity extends FragmentActivity implements AlbumCollec
         commit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /*
                 if (mCollection.isEmpty()) {
                     Toast.makeText(getApplicationContext(),"Ingen bilder valgt",Toast.LENGTH_LONG).show();
                 }else{
                     setResult();
-                }
+                }*/
+                setResult();
             }
         });
         btnBack.setOnClickListener(new View.OnClickListener() {
